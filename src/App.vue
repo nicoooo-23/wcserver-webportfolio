@@ -81,11 +81,13 @@ body {
 }
 .text-muted {
   color: rgba(17, 17, 35, 0.65) !important;
+  background-image: none;
 }
 .border-top,
 .border-bottom,
 .border {
   border-color: rgba(17, 17, 35, 0.15) !important;
+  background-image: none;
 }
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-nav .nav-link {
@@ -108,6 +110,7 @@ body {
   background-color: transparent;
   color: #111123;
   border-color: rgba(17, 17, 35, 0.12);
+  background-image: none;
 }
 .btn-primary {
   background-color: #111123;
@@ -135,12 +138,14 @@ body {
 .badge-success {
   background-color: #111123;
   color: #fffde8;
+  background-image: none;
 }
 .alert-info,
 .alert-success {
   background-color: rgba(17, 17, 35, 0.08);
   border-color: rgba(17, 17, 35, 0.2);
   color: #111123;
+  background-image: none;
 }
 .form-control {
   background-color: #fffde8;
@@ -154,5 +159,8 @@ body {
   border-color: #111123;
   box-shadow: 0 0 0 0.2rem rgba(17, 17, 35, 0.15);
   background-image: none;
+}
+h1, h2, h3, h4, h5, h6, .h5, .h4, .h3, .h2, .h1 {
+  color: #111123;
 }
 </style>

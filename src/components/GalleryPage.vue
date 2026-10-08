@@ -3,7 +3,7 @@
     <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
       <div>
         <h1 class="h2 font-weight-bold text-primary">{{ title }}</h1>
-        <p class="text-muted mb-0">Selected projects and visual showcases from my web development journey.</p>
+        <p class="text-muted mb-0">Selected projects shown below are simply examples for website demonstration and not actual projects done.</p>
       </div>
       <div class="badge badge-pill badge-primary p-2">
         {{ items.length }} Featured Projects
